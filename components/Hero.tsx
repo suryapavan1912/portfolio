@@ -6,7 +6,7 @@ import ScrollIndicator from "./ScrollIndicator";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gray-50 relative">
+    <section className="min-h-[100svh] flex items-center justify-center bg-gray-50 relative">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <AnimatedText 
