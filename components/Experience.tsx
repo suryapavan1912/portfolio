@@ -1,7 +1,7 @@
 // components/Experience.tsx
 'use client';
 
-import { motion } from "framer-motion";
+import { motion, transform } from "framer-motion";
 import { AnimatedText } from "@/components/animations/AnimatedText";
 
 interface Experience {
@@ -17,9 +17,11 @@ const experiences: Experience[] = [
     company: "AllEvents",
     period: "Jun 2023 - Present",
     responsibilities: [
-      "Led development of enterprise-level e-commerce platform serving 100K+ monthly users",
-      "Implemented microservices architecture reducing system response time by 40%",
-      "Mentored junior developers and conducted code reviews"
+      "Optimized backend functionalities with PHP, ensuring seamless data flow and API performance.",
+      "Developed responsive UIs using HTML, CSS, jQuery, and Vue.js to enhance user experience.",
+      "Collaborated with product managers and designers to deliver functional and user-friendly web features.",
+      "Mentored junior developers and improved code quality through reviews.",
+      "Gained hands-on experience in end-to-end development, including debugging, deployment, and API integrations.",
     ]
   }
 ];

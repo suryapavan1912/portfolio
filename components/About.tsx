@@ -44,11 +44,11 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground">
-              With over 2 years of experience in full-stack development, I specialize in building scalable web applications using modern technologies. My passion lies in creating elegant solutions to complex problems.
+              I&apos;m a full-stack developer with over two years of experience building fast, scalable, and reliable web applications. I focus on well-structured architectures that ensure efficiency and seamless user experiences.
             </p>
             
             <p className="text-lg text-muted-foreground">
-              I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends and best practices.
+              Beyond coding, I have a passion for design and photography, which influence how I create intuitive and visually appealing interfaces.
             </p>
             
             <motion.div 

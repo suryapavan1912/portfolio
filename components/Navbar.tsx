@@ -12,7 +12,10 @@ const Navbar = () => {
     { title: "Projects", href: "#projects" },
     { title: "Skills", href: "#skills" },
     { title: "Experience", href: "#experience" },
+    { title: "Contact", href: "#contact" },
   ];
+  
+  const cvPath = "https://drive.usercontent.google.com/u/0/uc?id=1UJrLauMiOy6Btlj7GnurBVXwbGoweuFQ&export=download";
 
   const navAnimation = {
     hidden: { y: -20, opacity: 0 },
@@ -74,12 +77,13 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a
-            href="#contact"
+            href={cvPath}
+            target="_blank"
             variants={navAnimation}
-            transition={{ delay: navItems.length * 0.1 }}
+            transition={{ delay: (navItems.length + 1) * 0.1 }}
             className="bg-black text-white hover:bg-black/90 px-4 py-1 rounded-md"
           >
-            Contact
+            Download CV
           </motion.a>
         </div>
 
@@ -115,11 +119,12 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="#contact"
+                href={cvPath}
+                target="_blank"
                 className="bg-black text-white hover:bg-black/90 px-4 py-2 rounded-md text-center mb-4"
                 onClick={() => setIsOpen(false)}
               >
-                Contact
+                Download CV
               </a>
             </div>
           </motion.div>

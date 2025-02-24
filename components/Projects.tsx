@@ -55,7 +55,7 @@ const projects: Project[] = [
       { name: "Express" },
       { name: "MongoDB" }
     ],
-    demoUrl: "#",
+    demoUrl: "https://lousy-d1b70.web.app/",
     type: "personal"
   },
 ];
