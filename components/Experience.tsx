@@ -1,7 +1,7 @@
 // components/Experience.tsx
 'use client';
 
-import { motion, transform } from "framer-motion";
+import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/animations/AnimatedText";
 
 interface Experience {
