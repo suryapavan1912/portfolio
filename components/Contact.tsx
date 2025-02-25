@@ -31,7 +31,6 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/suryapavan1912", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/surya-pavan-79723b1b3", label: "LinkedIn" },
-//   { icon: Instagram, href: "https://www.instagram.com/_surya_pavan_", label: "Instagram" },
 ];
 
 const Contact = () => {
