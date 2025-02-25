@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X } from 'lucide-react';
+import { Menu, X , Download } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     { title: "Contact", href: "#contact" },
   ];
   
-  const cvPath = "https://drive.usercontent.google.com/u/0/uc?id=1UJrLauMiOy6Btlj7GnurBVXwbGoweuFQ&export=download";
+  const resumePath = "https://drive.usercontent.google.com/u/0/uc?id=1UJrLauMiOy6Btlj7GnurBVXwbGoweuFQ&export=download";
 
   const navAnimation = {
     hidden: { y: -20, opacity: 0 },
@@ -77,13 +77,14 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a
-            href={cvPath}
+            href={resumePath}
             target="_blank"
             variants={navAnimation}
             transition={{ delay: (navItems.length + 1) * 0.1 }}
-            className="bg-black text-white hover:bg-black/90 px-4 py-1 rounded-md"
+            className="bg-black text-white hover:bg-black/90 px-4 py-1 rounded-md flex items-center gap-2"
           >
-            Download CV
+            <Download size={16} />
+            Resume
           </motion.a>
         </div>
 
@@ -119,12 +120,13 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href={cvPath}
+                href={resumePath}
                 target="_blank"
-                className="bg-black text-white hover:bg-black/90 px-4 py-2 rounded-md text-center mb-4"
+                className="bg-black text-white hover:bg-black/90 px-4 py-2 rounded-md mb-4 flex items-center justify-center gap-2"
                 onClick={() => setIsOpen(false)}
               >
-                Download CV
+                <Download size={16} />
+                Resume
               </a>
             </div>
           </motion.div>
