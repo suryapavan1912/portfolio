@@ -17,10 +17,9 @@ const experiences: Experience[] = [
     company: "AllEvents",
     period: "Jun 2023 - Present",
     responsibilities: [
-      "Optimized backend functionalities with PHP, ensuring seamless data flow and API performance.",
-      "Developed responsive UIs using HTML, CSS, jQuery, and Vue.js to enhance user experience.",
-      "Collaborated with product managers and designers to deliver functional and user-friendly web features.",
-      "Mentored junior developers and improved code quality through reviews.",
+      "Gained versatile experience by working on numerous projects with PHP and MySQL, adapting to the dynamic startup culture.",
+      "Developed responsive and cross-browser compatible UIs using HTML, CSS, jQuery, and Vue.js and optimized backend systems, resulting in faster load times and improved user satisfaction, enhancing overall platform performance.",
+      "Mentored new team members, offering guidance and support to help them quickly adapt and contribute effectively to project goals.",
       "Gained hands-on experience in end-to-end development, including debugging, deployment, and API integrations.",
     ]
   }
