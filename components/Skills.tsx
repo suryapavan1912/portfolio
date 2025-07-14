@@ -35,10 +35,10 @@ const skillCategories: SkillCategory[] = [
   {
     title: "Additional Skills",
     skills: [
-      { name: "Product Strategy" },
-      { name: "SEO Best Practices" },
-      { name: "Git & Version Control" },
-      { name: "Web Vitals & Optimization" },
+      { name: "Problem solving" },
+      { name: "Web scraping" },
+      { name: "Git, Redis, SQS" },
+      { name: "Memcached" },
     ]
   }
 ];

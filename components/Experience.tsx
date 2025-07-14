@@ -15,12 +15,22 @@ const experiences: Experience[] = [
   {
     title: "Full Stack Developer",
     company: "AllEvents",
-    period: "Jun 2023 - Present",
+    period: "May 2023 - Jul 2025",
     responsibilities: [
-      "Gained versatile experience by working on numerous projects with PHP and MySQL, adapting to the dynamic startup culture.",
-      "Developed responsive and cross-browser compatible UIs using HTML, CSS, jQuery, and Vue.js and optimized backend systems, resulting in faster load times and improved user satisfaction, enhancing overall platform performance.",
-      "Mentored new team members, offering guidance and support to help them quickly adapt and contribute effectively to project goals.",
-      "Gained hands-on experience in end-to-end development, including debugging, deployment, and API integrations.",
+      "Gained versatile experience by working on numerous projects like dashboards, email services and internal automations.",
+      "Revamped landing, category, and event pages—lighter code, faster loads, better user experience, and higher engagement.",
+      "Shipped and maintained REST and mobile APIs while rolling out new features and fixing bugs on a weekly cycle.",
+      "Managed a team of 2 developers, handling planning, code reviews, and delivery without missing a deadline.",
+    ]
+  },
+  {
+    title: "Full Stack Intern",
+    company: "Academix",
+    period: "Dec 2022 - Mar 2023",
+    responsibilities: [
+      "Developed high-quality, user-friendly features for Academix course marketplace using React JS, improving existing functionality and enhancing overall platform performance.",
+      "Collaborated within the core team to translate project requirements into new features, conducting thorough testing to ensure best-practice code quality \& stability.",
+      "Continuously enhanced technical skills through self-driven learning, staying current with industry trends and emerging technologies.",
     ]
   }
 ];
