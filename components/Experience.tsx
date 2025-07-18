@@ -30,7 +30,6 @@ const experiences: Experience[] = [
     responsibilities: [
       "Developed high-quality, user-friendly features for Academix course marketplace using React JS, improving existing functionality and enhancing overall platform performance.",
       "Collaborated within the core team to translate project requirements into new features, conducting thorough testing to ensure best-practice code quality \& stability.",
-      "Continuously enhanced technical skills through self-driven learning, staying current with industry trends and emerging technologies.",
     ]
   }
 ];
