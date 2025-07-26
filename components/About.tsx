@@ -44,7 +44,7 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-lg text-muted-foreground">
-              I&apos;m a full-stack developer with over 4 years of experience building fast, scalable, and reliable web applications. I focus on well-structured architectures that ensure efficiency and seamless user experiences.
+              I&apos;m a full-stack developer with over 2.5 years of experience building fast, scalable, and reliable web applications. I focus on well-structured architectures that ensure efficiency and seamless user experiences.
             </p>
             
             <p className="text-lg text-muted-foreground">
