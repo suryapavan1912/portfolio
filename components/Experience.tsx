@@ -15,7 +15,7 @@ const experiences: Experience[] = [
   {
     title: "Full Stack Developer",
     company: "AllEvents",
-    period: "May 2023 - Jul 2025",
+    period: "May 2023 - Present",
     responsibilities: [
       "Gained versatile experience by working on numerous projects like dashboards, email services and internal automations.",
       "Revamped landing, category, and event pages—lighter code, faster loads, better user experience, and higher engagement.",
