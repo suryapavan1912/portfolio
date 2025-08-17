@@ -36,7 +36,7 @@ const skillCategories: SkillCategory[] = [
     title: "Additional Skills",
     skills: [
       { name: "Problem solving" },
-      { name: "Web scraping" },
+      { name: "OpenAI SDK" },
       { name: "Git, Redis, SQS" },
       { name: "Memcached" },
     ]

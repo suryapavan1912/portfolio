@@ -15,8 +15,6 @@ const Navbar = () => {
     { title: "Contact", href: "#contact" },
   ];
   
-  const resumePath = "https://drive.usercontent.google.com/uc?id=1YCzuwEGgYduMQjeAHFTz4sTCdN-8S-hZ&export=download";
-
   const navAnimation = {
     hidden: { y: -20, opacity: 0 },
     visible: {
@@ -55,7 +53,7 @@ const Navbar = () => {
       animate="visible"
       className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b"
     >
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-16 flex items-center justify-between max-w-7xl">
         <motion.div 
           variants={navAnimation}
           className="text-xl font-bold"
@@ -76,16 +74,6 @@ const Navbar = () => {
               {item.title}
             </motion.a>
           ))}
-          <motion.a
-            href={resumePath}
-            target="_blank"
-            variants={navAnimation}
-            transition={{ delay: (navItems.length + 1) * 0.1 }}
-            className="bg-black text-white hover:bg-black/90 px-4 py-1 rounded-md flex items-center gap-2"
-          >
-            <Download size={16} />
-            Resume
-          </motion.a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -119,15 +107,6 @@ const Navbar = () => {
                   {item.title}
                 </a>
               ))}
-              <a
-                href={resumePath}
-                target="_blank"
-                className="bg-black text-white hover:bg-black/90 px-4 py-2 rounded-md mb-4 flex items-center justify-center gap-2"
-                onClick={() => setIsOpen(false)}
-              >
-                <Download size={16} />
-                Resume
-              </a>
             </div>
           </motion.div>
         )}
